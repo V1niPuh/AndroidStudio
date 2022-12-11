@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_margin="18dp"
+    app:cardCornerRadius="30dp">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="left|top"
+            android:text="Заголовок блока"
+            android:textSize="25sp"
+            android:fontFamily="@font/alegreya_bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/alegreya_bold"
+            android:text="Кратенькое описание\n блока с двумя строчками"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="138dp"
+            android:layout_height="39dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/button_main_round"
+            android:text="подробней"
+            android:textColor="@color/white"
+            android:textAllCaps="false"/>
+        <ImageView
+            android:layout_width="129dp"
+            android:layout_height="129dp"
+            android:layout_gravity="right"
+            android:src="@drawable/removebg_preview2"/>
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>
